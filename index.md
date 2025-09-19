@@ -344,7 +344,11 @@ to include the relevant installation instructions.
 {% comment %}
 These are the installation instructions for the tools used
 during the workshop.
+
+I'm including OneDrive by default
 {% endcomment %}
+
+{% include install_instructions/onedrive.html %}
 
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
